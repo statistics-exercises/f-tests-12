@@ -26,7 +26,7 @@ If all the distributions have the same expectation the treatment sum of squares 
 
 We will thus define the following statistic, F, for these hypothesis tests:
 
-![](https://render.githubusercontent.com/render/math?math=F=\frac{SS_T/(T-1)}{SS_E/\left[\sum_{j=1}^t(N_j-1)\right]})
+![](https://render.githubusercontent.com/render/math?math=F=\frac{SS_T/(T-1)}{SS_E/\left[\sum_{j=1}^t(n_j-1)\right]})
 
 The arguments above illustrate that if the sampled distributions are all the same and if the estimates for the variance in the numerator and the denominator in this expression are replaced by their exact values F will be equal to one.  The test we are doing when we sample F is thus the comparison of variances that we have learned above in the earlier tasks of this exercise.
 
