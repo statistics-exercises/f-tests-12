@@ -14,7 +14,7 @@ Furthermore, ![](https://render.githubusercontent.com/render/math?math=S^2) here
 
 If we assume that all the ![](https://render.githubusercontent.com/render/math?math=\overline{X_j}) are identical random variables and if we ignore the ![](https://render.githubusercontent.com/render/math?math=n_j) in this expression above for a moment this looks like the numerator in the following expression for estimating the sample variance of ![](https://render.githubusercontent.com/render/math?math=\overline{X}_j):
 
-![](https://render.githubusercontent.com/render/math?math=S_{\overline{X_j}}=\frac{1}{t-1}\sum_{j=1}^t(\overline{X_j}-\overline{X})^2)^2)
+![](https://render.githubusercontent.com/render/math?math=S_{\overline{X_j}}=\frac{1}{t-1}\sum_{j=1}^t(\overline{X_j}-\overline{X})^2)
 
 Now recall that ![](https://render.githubusercontent.com/render/math?math=\overline{X}_j) is simply a sample mean computed from ![](https://render.githubusercontent.com/render/math?math=n_j) identically distributed random variables ![](https://render.githubusercontent.com/render/math?math=X_i) as we can then write the following statement about the exact variance that we are estimating above:
 
