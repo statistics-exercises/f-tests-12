@@ -2,7 +2,7 @@
 
 The previous exercise introduced the basic idea that we are going to use to test if the expectations of our distributions are all the same in qualitative terms.  Qualitatively, if our N samples are all from the same distribution the treatment and error sum of squares will both take similar values.  If, by contrast, the distributions have different expectations then the treatment sum of squares will be larger than the error sum of squares.  To make this idea more quantitative recall that we can estimate the common variance for the distributions from the error sum of squares as shown below:
 
-![](https://render.githubusercontent.com/render/math?math=S^2=\frac{SS_E}{\sum_{j=1}^t (n_j-1)}=\sum_{j=1}^t(n_j-1)s_j^2}{\sum_{j=1}^t(n_j-1)})
+![](https://render.githubusercontent.com/render/math?math=S^2=\frac{SS_E}{\sum_{j=1}^t(n_j-1)}=\sum_{j=1}^t(n_j-1)s_j^2}{\sum_{j=1}^t(n_j-1)})
 
 with:
 
