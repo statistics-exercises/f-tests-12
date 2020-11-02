@@ -10,7 +10,7 @@ with:
 
 Furthermore, ![](https://render.githubusercontent.com/render/math?math=S^2) here is an estimate for the true variance of the distribution of the random variable, ![](https://render.githubusercontent.com/render/math?math=\textrm{var}(X_i)).  Now consider the treatment sum of squares:
 
-![](https://render.githubusercontent.com/render/math?math=SS_T=\sum_{j=1}^t\sum_{i=1}^{n_j}(\overline{X_j}-\overline{X})^2)
+![](https://render.githubusercontent.com/render/math?math=SS_T=\sum_{j=1}^t\sum_{i=1}^{n_j}(\overline{X_j}-\overline{X})^2=\sum_{j=1}^{t}n_j(\overline{X_j}-\overline{X})^2)
 
 If we assume that all the ![](https://render.githubusercontent.com/render/math?math=\overline{X_j}) are identical random variables and if we ignore the ![](https://render.githubusercontent.com/render/math?math=n_j) in this expression above for a moment this looks like the numerator in the following expression for estimating the sample variance of ![](https://render.githubusercontent.com/render/math?math=\overline{X}_j):
 
